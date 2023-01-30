@@ -1,0 +1,38 @@
+:root{
+    --color-212529: #212529;
+    --color-ffd333: #ffd333;
+    --color-47ad24: #47ad24;
+    --color-e52e2e: #e52e2e;
+    --color-828599: #828599;
+    --color-3d464d: #3d464d;
+    --color-ced4da: #ced4da;
+    --font-style: Roboto !important;
+
+}
+
+.arrow-down-right{
+    
+}
+
+.form-control {
+    box-shadow: var(--color-ced4da);
+    border-color: var(--color-ced4da);
+}
+
+.title{
+    font-size: 28px;
+    font-family: var(--font-style);
+    color: var(--color-212529);
+}
+
+.sub-amount{
+    font-size: 24px;
+    font-family: var(--font-style);
+    color: var(--color-212529);
+}
+
+.sub-title{
+    font-size: 14px;
+    font-family: var(--font-style);
+    color: var(--color-828599);
+}

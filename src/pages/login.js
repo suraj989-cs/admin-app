@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import CustomInput from "../components/CustomInput";
-import './Login.css'
 
 const Login = () => {
   return (
@@ -31,7 +30,7 @@ const Login = () => {
               </div>
 
           <Link to='/admin'
-            className="border-0 px-3 py-3 text-white fw-bold w-100 rounded-3 text-decoration-none text-center"
+            className="cursor-pointer border-0 px-3 py-3 text-white fw-bold w-100 rounded-3 text-decoration-none text-center"
             type="submit"
             style={{ background: "#ffd333"}}
           >
